@@ -21,6 +21,8 @@ level=input("Choose a difficulty level. Type 'easy' or 'hard': \n ")
 #         print("Too low.")
 #         print("Guess again")
 
+
+
 if level=="easy":
     guess_left=10
 else:
@@ -46,4 +48,4 @@ for i in range(0,guess_left):
         if (guess_left==0):
             print(f"The Number was {num}")
             print("You have run out of guesses, You loser. Shame on you! Bozo!") 
-print("Game over")  
+print("Game over!!")  
